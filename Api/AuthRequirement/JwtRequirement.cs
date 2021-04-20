@@ -33,7 +33,7 @@ namespace Api.AuthRequirement
 
                 if(response.StatusCode == System.Net.HttpStatusCode.OK)
                 {
-                    context.Succeed(requirement);
+                    context.Succeed(requirement); 
                 }
             }
         }
